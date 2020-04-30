@@ -1,7 +1,0 @@
--------------------------------------------------------------------------------
-Test set: CrytpoBusiness.crytpo.CrytpoApplicationTests
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.16 s <<< FAILURE! - in CrytpoBusiness.crytpo.CrytpoApplicationTests
-CrytpoBusiness.crytpo.CrytpoApplicationTests  Time elapsed: 0.159 s  <<< ERROR!
-java.lang.IllegalStateException: Unable to find a @SpringBootConfiguration, you need to use @ContextConfiguration or @SpringBootTest(classes=...) with your test
-
