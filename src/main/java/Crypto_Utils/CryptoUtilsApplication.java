@@ -43,9 +43,9 @@ public class CryptoUtilsApplication {
 				System.out.println("\n --license -> Tipo de licencia");
 				System.out.println("\n --encrypt -> para encriptar debes pasar el argumento --encript llave secreta en base64 salto en base64 'mensaje a encriptar' todo separado por espacio");
 				System.out.println("\n --decrypt -> para desencriptar debes pasar el argumento --decrypt llave secreta en base64 salto en base64 'mensaje a desencriptar' todo separado por espacio \n");
-				System.out.println("EJEMPLO \n \n java -jar CryptoUtils.jar --encrypt U2VjcmV0S2V5 MTIzNDU= 'Hola Mundo' \n java -jar CryptoUtils.jar --decrypt U2VjcmV0S2V5 MTIzNDU= 'DCMO75w8TEaMYxYyEIuGqlF2cR6afodf4y+c996Vqqs='");
+				System.out.println("EJEMPLO \n \n java -jar [Nombre_jar].jar --encrypt U2VjcmV0S2V5 MTIzNDU= 'Hola Mundo' \n java -jar [Nombre_jar].jar --decrypt U2VjcmV0S2V5 MTIzNDU= 'DCMO75w8TEaMYxYyEIuGqlF2cR6afodf4y+c996Vqqs='");
 			} else {
-				System.out.println("Por favor ejecuta: \n java -jar CryptoUtils.jar --help");
+				System.out.println("Por favor ejecuta: \n java -jar [Nombre_jar].jar --help");
 			}
 
 		} catch (Exception e) {
