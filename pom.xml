@@ -12,10 +12,10 @@
 	<artifactId>Crypto_Utils</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Crypto_Utils</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Crypto_Utils</description>
 
 	<properties>
-		<java.version>11</java.version>
+		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
@@ -35,7 +35,7 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
+				<!-- https://mvnrepository.com/artifact/commons-codec/commons-codec -->
 		<dependency>
 			<groupId>commons-codec</groupId>
 			<artifactId>commons-codec</artifactId>
