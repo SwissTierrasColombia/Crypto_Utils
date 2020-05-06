@@ -1,19 +1,11 @@
 package Crypto_Utils;
-
 import org.apache.commons.codec.binary.Base64;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 
 import Crypto_Utils.business.CryptoBusiness;
 
-@SpringBootApplication
-@EnableAutoConfiguration(exclude = { DataSourceAutoConfiguration.class })
 public class CryptoUtilsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CryptoUtilsApplication.class, args);
 		try {
 			CryptoBusiness objCrypto = new CryptoBusiness();
 			if (args[0].equals("--encrypt")) {
